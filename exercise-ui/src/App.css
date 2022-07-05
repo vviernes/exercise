@@ -1,0 +1,84 @@
+body {
+  background-color: #BCB8B1;
+}
+
+nav{
+  background-color: #463F3A;
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(5px + 2vmin);
+  font-weight: 500;
+  padding-left: 1%;
+}
+
+nav a {
+  background-color:#F4F3EE;
+  border:2px solid #F4F3EE;
+  border-radius:15px 15px 0 0; 
+  color:#463F3A;
+  margin-right:5px;
+  padding: 8px;
+  text-decoration:none;
+  vertical-align:middle;
+}
+
+nav a:hover {
+  background-color:#ebc9bf;
+  border:2px solid #ebc9bf;
+  color:#463F3A;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #463F3A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #F4F3EE;
+}
+
+.App-main {
+  background-color: #F4F3EE;
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(6px + 2vmin);
+  color: black;
+  padding-bottom: 50px;
+}
+
+.App-footer {
+  background-color: #BCB8B1;
+  min-height: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: #F4F3EE;
+}
+
+
+td, th {
+  border: 1px solid #F4F3EE;
+  padding: 8px;
+}
+
+tr:hover {background-color: #e0afa03d;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #8A817C;
+  color: #F4F3EE;
+}
